@@ -1,0 +1,6 @@
+[submodule "lib/mc"]
+	path = lib/mc
+	url = https://github.com/metacontract/mc
+[submodule "lib/erc7201"]
+	path = lib/erc7201
+	url = https://github.com/metacontract/erc7201
