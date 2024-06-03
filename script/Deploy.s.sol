@@ -8,6 +8,6 @@ contract DeployScript is MCScript {
     using DeployLib for MCDevKit;
 
     function run() public startBroadcastWith("DEPLOYER_PRIV_KEY") {
-        mc.deployCounter(1);
+        mc.deploySimpleDAO();
     }
 }
